@@ -2,7 +2,6 @@ services:
   cra-farewell:
     build: 
       context: .
-    image: phsaurav/cra-farewell:latest
     ports:
       - "3030:3000"
     networks:
