@@ -2,9 +2,6 @@ services:
   cra-farewell:
     build: 
       context: .
-      platforms:
-        - linux/amd64
-        - linux/arm64
     image: phsaurav/cra-farewell:latest
     ports:
       - "3030:3000"
