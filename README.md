@@ -1,6 +1,5 @@
 # A farewell to Create React App
 ### Installation
-
 Install the dependencies:
 
 ```bash
