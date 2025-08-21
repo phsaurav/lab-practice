@@ -22,4 +22,4 @@ jobs:
             phsaurav/cra-farewell:${{ github.sha }}
       - name: Deploy to Server
         run: |
-          ./deploy.sh
+          /home/phs/deploy.sh ${{ github.sha }}
